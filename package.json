@@ -1,13 +1,17 @@
 {
-  "name": "react-library-starter",
-  "version": "0.0.1",
-  "description": "A react library starter project",
+  "name": "react-decorators",
+  "version": "0.1.0",
+  "description": "React decorator components",
   "main": "dist/index.js",
   "license": "APACHE",
   "scripts": {
     "lint": "eslint src",
     "build": "webpack",
     "prepare": "rimraf dist && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdyxs/react-decorators.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
